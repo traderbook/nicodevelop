@@ -1,5 +1,6 @@
 {
     "name": "nicodevelop/plugin",
+    "version": "1.0.0",
     "description": "Framework for wordpress",
     "authors": [
         {
