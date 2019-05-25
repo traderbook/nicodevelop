@@ -1,6 +1,7 @@
 {
     "name": "nicodevelop/plugin",
     "version": "1.0.0",
+    "license": "GPL-3.0-or-later",
     "description": "Framework for wordpress",
     "authors": [
         {
