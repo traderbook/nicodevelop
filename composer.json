@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "license": "GPL-3.0-or-later",
     "description": "Framework for wordpress",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "traderbook",
@@ -15,7 +16,5 @@
     },
     "autoload": {
         "psr-4" : {"App\\" : "app/"}
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    }
 }
