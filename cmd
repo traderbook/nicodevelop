@@ -3,6 +3,8 @@
 if( php_sapi_name() !== 'cli' ) {
     die("Meant to be run from command line" . PHP_EOL);
 }
-
 require __DIR__ . '/init.php';
-new \App\Console\Console();
+
+use App\Console\Console;
+
+new Console();

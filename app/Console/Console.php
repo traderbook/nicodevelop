@@ -14,8 +14,10 @@ class Console
         foreach ($list as $value) {
             if($value !== '.' && $value !== '..') {
                 $valueExploded = explode('.', $value);
-                require __DIR__ . "/Command/" . $value;
-                $className = array_shift($valueExploded);
+
+                $className = (string) array_shift($valueExploded);
+
+                $className = "App\\Console\\Command\\$className";
 
                 $application->add(new $className());
             }
