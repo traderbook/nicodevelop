@@ -22,7 +22,6 @@ class CreateProjectCommand extends Command
 
         $result = Regex::replace('/\{\{name\}\}/', 'SamplePlugin', file_get_contents(ROOT . '/app/Core/Template/index.txt'))->result();
 
-//        file_get_contents(ROOT . '/index.php', $result);
         $handle = fopen('index.php', "w");
         fwrite($handle, $result);
         fclose($handle);

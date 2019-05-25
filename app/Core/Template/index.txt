@@ -3,4 +3,4 @@
 Plugin Name: {{name}}
 */
 
-require ROOT . '/nicodevelop/init.php';
+require 'init.php';
